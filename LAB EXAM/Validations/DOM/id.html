@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>getElementById() function</title>
+    </head>
+    <body>
+        <p id="demo">Click the button to change the color of this paragraph.</p>
+        <button id="btn">Click ME!</button>
+
+        <script>
+            var button = document.getElementById('btn')
+            
+            button.onclick = function() {
+                var p = document.getElementById('demo')
+                p.style.color = 'red'
+            }
+        </script>
+    </body>
+</html>

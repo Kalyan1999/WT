@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Registration Page</title>
+        <style>
+            html, body {
+                display: flex;
+                height: 100%;
+                width: 100%;
+                font-family: -apple-system, BlinkMacSystemFont;
+            }
+            h1 {
+                text-align: center;
+            }
+            .form {
+                margin: 20px auto;
+            }
+            input {
+                display: block;
+                margin-bottom: 20px;
+                width: 300px;
+                height: 30px;
+                font-size: 14px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="form">
+            <h1>Registration Page</h1>
+            <form>                
+                <input type="text" name="name" id="name" placeholder="Name">
+                <input type="text" name="email" id="email" placeholder="E-Mail">
+                <input type="password" name="pwd" id="pwd" placeholder="Password">
+                <input type="text" name="phone" id="phone" placeholder="Phone Number">
+                <input type="button" value="Register" onclick="validation()">
+            </form>
+            <span id="output"></span>
+        </div>
+
+        <script>
+            function validation () {
+                var out = document.getElementById('output')
+                var name = document.getElementById('name').value
+                var email = document.getElementById('email').value
+                var pwd = document.getElementById('pwd').value
+                var ph = document.getElementById('phone').value
+                var nameValid = name.match(/^[A-Za-z ]+$/)
+                var emailValid = email.match(/^[\w\.-]+@[\w\.]+[A-Za-z]{2,3}$/)
+                var pwdValid = pwd.match(/^.{6,}$/)
+                var phValid = ph.match(/^\d{10}$/)
+                if(!nameValid) {
+                    output.innerHTML = 'Invalid Name'
+                } else if(!emailValid) {
+                    output.innerHTML = 'E-Mail is not valid'
+                } else if(!pwdValid) {
+                    output.innerHTML = 'Password should be atlest 6 characters long'
+                } else if(!phValid) {
+                    output.innerHTML = 'Invalid Phone number'
+                } else {
+                    output.innerHTML = 'Welcome, ' + name
+                }
+            }
+        </script>
+    </body>
+</html>

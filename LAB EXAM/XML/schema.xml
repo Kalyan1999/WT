@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookstore
+    xmlns="https://www.w3schools.com"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://www.w3schools.com/xml schema.xsd">
+    <book id="1" category="science">
+        <title>A Brief History of Time</title>
+        <author>Stephen Hawking</author>
+        <isbn>978-05-53109-53-5</isbn>
+        <publisher>Bantam Dell Publishing Group</publisher>
+        <edition>1</edition>
+        <price>239.00</price>
+    </book>
+    <book id="2" category="Biography">
+        <title>Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future</title>
+        <author>Ashlee Vance</author>
+        <isbn>978-00-62301-23-9</isbn>
+        <publisher>Virgin Books</publisher>
+        <edition>1</edition>
+        <price>1796.00</price>
+    </book>
+</bookstore>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="books.xsl"?>
+<bookstore>
+    <book id="1" category="science">
+        <title>A Brief History of Time</title>
+        <author>Stephen Hawking</author>
+        <isbn>978-05-53109-53-5</isbn>
+        <publisher>Bantam Dell Publishing Group</publisher>
+        <edition>1</edition>
+        <price>239.00</price>
+    </book>
+    <book id="2" category="Biography">
+        <title>Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future</title>
+        <author>Ashlee Vance</author>
+        <isbn>978-00-62301-23-9</isbn>
+        <publisher>Virgin Books</publisher>
+        <edition>1</edition>
+        <price>1796.00</price>
+    </book>
+    <book id="3" category="Biography">
+        <title>Steve Jobs</title>
+        <author>Walter Isaacson</author>
+        <isbn>978-03-49140-43-8</isbn>
+        <publisher>Simon &amp; Schuster</publisher>
+        <edition>1</edition>
+        <price>440.00</price>
+    </book>
+    <book id="4" category="Memoir">
+        <title>Becoming</title>
+        <author>Michelle Obama</author>
+        <isbn>978-15-24763-13-8</isbn>
+        <publisher>Crown</publisher>
+        <edition>1</edition>
+        <price>230.00</price>
+    </book>
+    <book id="5" category="Textbook">
+        <title>Beginning HTML, XHTML, CSS and Javascript</title>
+        <author>Jon Duckett</author>
+        <isbn>978-81-26525-51-5</isbn>
+        <publisher>Wiley</publisher>
+        <edition>8</edition>
+        <price>424.00</price>
+    </book>
+</bookstore>

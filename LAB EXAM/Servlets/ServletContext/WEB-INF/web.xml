@@ -1,0 +1,14 @@
+<web-app>  
+<servlet>  
+<servlet-name>Srisailam</servlet-name>  
+<servlet-class>DemoServlet</servlet-class>  
+</servlet>  
+<context-param>  
+<param-name>dname</param-name>  
+<param-value>sun.jdbc.odbc.JdbcOdbcDriver</param-value>  
+</context-param>  
+<servlet-mapping>  
+<servlet-name>Srisailam</servlet-name>  
+<url-pattern>/context</url-pattern>  
+</servlet-mapping>  
+</web-app>

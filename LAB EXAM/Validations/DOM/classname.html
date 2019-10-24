@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>getElementByClassName() function</title>
+    </head>
+    <body>
+        <div class="example">
+            A div with class="example"
+        </div>
+            
+        <div class="example">
+            Another div with class="example"
+        </div>
+            
+        <p class="example">This is a p element with class="example".</p>
+        <button id="btn">Click ME!</button>
+
+        <script>
+            var button = document.getElementById('btn')
+            
+            button.onclick = function() {
+                var x = document.getElementsByClassName('example')
+                for (var i = 0; i < x.length; i++) {
+                    x[i].style.color = "red";
+                }
+            }
+        </script>
+    </body>
+</html>
